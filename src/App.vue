@@ -1,26 +1,31 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ExampleComp1 />
+  <hr>
+  <ExampleComp2 />
+  <hr>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ExampleComp1 from './components/VuexDemo/ExampleComp1.vue'
+import ExampleComp2 from './components/VuexDemo/ExampleComp2.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ExampleComp1,
+    ExampleComp2
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+h1 {
+  background-color: chartreuse;
 }
 </style>
