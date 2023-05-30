@@ -3,6 +3,7 @@
   <ExampleComp1 />
   <hr>
   <ExampleComp2 />
+  <h3>This is made by Mukhtar</h3>
   <hr>
 </template>
 
