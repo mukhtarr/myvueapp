@@ -1,4 +1,5 @@
 <template>
+  <h1>Hello Welcome JCI</h1>
   <ExampleComp1 />
   <hr>
   <ExampleComp2 />
